@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0px dotted green;
+}
+body{
+        height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        background: #c0a886;
+}
+header{
+    height: 4rem;
+    font:bold 1rem 'Courier New', Courier, monospace;
+    background: #c0a886;
+    padding: 0.5rem;
+}
+nav{
+    padding: 0rem;
+    background: #c0a886;
+    margin-left: 7dvw;
+    display: flex;
+.tab{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 0.5rem;
+    margin-right: 0rem;
+}
+
+}
+.tab.active {
+  background: #e2dbc8;
+  color: #000;
+}
+main{
+    flex-grow: 5;
+    width: 90dvw; 
+    margin-left: 7dvw;
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    background: #e2dbc8;
+
+}
+.content{
+    padding: 0rem;
+    width: 30dvw;
+    overflow: hidden;
+    margin-top: 150px;
+    
+}
+.content img{
+    width: 100%;
+    display: block;
+    margin: 0;
+    border: 1px solid #936039ab;
+}
+.text1{
+    padding: 0.3rem;
+    width: 30dvw;
+    background: #f6f0e8;
+    word-spacing: 4px;
+    line-height: 1.3;
+    border: 1px solid #936039ab;
+}
