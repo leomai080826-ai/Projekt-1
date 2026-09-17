@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    --outline: 1px dotted green;
+    outline: 1px dotted green;
 
 }
 body{
@@ -42,7 +42,7 @@ main{
     color: rgb(0, 0, 0);
     background: #e2dbc8;
     display:grid;
-    place-content:center;
+    place-content:top;
     }
 #home_image{
     display:flex;
@@ -77,6 +77,11 @@ main{
 }
 #about_article{
     background: #e2dbc8;
+    }
+#fun_facts_main_section{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
 }
 p{
     padding: 5px 5px 5px 10px;
